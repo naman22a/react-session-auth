@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// button,
+// button[type='submit'] {
+//     @apply px-4 py-2 bg-teal-700 rounded;
+// }
+
+button {
+    @apply px-4 py-2 rounded;
+}

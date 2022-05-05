@@ -1,0 +1,27 @@
+.container {
+    @apply flex flex-col justify-center items-center;
+
+    h1 {
+        @apply text-5xl mb-5;
+    }
+
+    form {
+        @apply flex flex-col justify-center items-center;
+
+        .field {
+            @apply flex flex-col my-4;
+
+            label {
+                @apply mr-2 mb-2 text-lg;
+            }
+
+            input {
+                @apply rounded bg-gray-700 border-none outline-none px-3 py-1;
+            }
+        }
+
+        button[type='submit'] {
+            @apply mt-4 bg-teal-700;
+        }
+    }
+}
